@@ -2,19 +2,29 @@
 <html>
     <head>
         <title>Google Search</title>
+        <link rel="stylesheet" href="googleSearchStyles.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="googleImageSearch.html">Google Image Search</a></li>
-                <li><a href="googleAdvancedSearch.html">Google Advanced Search</a></li>
-            </ul>
-        </nav>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" name="Google Search" value="Google Search">
-            <input type="submit" name="btnI" value = "I am Feeling Lucky">
-        </form>
 
+        <nav>
+            <div>
+                <a href="googleImageSearch.html">Google Image Search</a>
+            </div>
+            <div>
+                <a href="googleAdvancedSearch.html">Google Advanced Search</a>
+            </div>
+        </nav>
+
+        <div class="form">
+            <form action="https://google.com/search">
+                <input type="text" name="q" id="searchBar">
+                <div>
+                    <input type="submit" name="Google Search" value="Google Search">
+                    <input type="submit" name="btnI" value = "I am Feeling Lucky">
+                </div>
+                
+            </form>
+        </div>
+        
     </body>
 </html>

@@ -2,18 +2,25 @@
 <html>
     <head>
         <title>Google Image Search</title>
+        <link rel="stylesheet" href="googleSearchStyles.css">
     </head>
     <body>
         <nav>
-            <ul>
-                <li><a href="googleSearch.html">Google Search</a></li>
-            </ul>
+            <div>
+                <a href="googleSearch.html">Google Search</a>
+            </div>
         </nav>
 
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="submit" name="Google Image Search">
-        </form>
+        <div class="form"> 
+            <form action="https://google.com/search">
+                <input type="text" name="q">
+                <div>
+                    <input type="hidden" name="tbm" value="isch">
+                    <input type="submit" name="Google Image Search" value= "Google Image Search">
+                </div>
+
+            </form>
+        </div>
+
     </body>
 </html>

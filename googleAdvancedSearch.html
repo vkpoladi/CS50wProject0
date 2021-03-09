@@ -2,28 +2,32 @@
 <html>
     <head>
         <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="googleSearchStyles.css">
     </head>
     <body>
         <nav>
-            <ul>
-                <li><a href="googleSearch.html">Google Search</a></li>
-            </ul>
+            <div>
+                <a href="googleSearch.html">Google Search</a>
+            </div>
         </nav>
 
-        <form action="https://google.com/search">
-            <div>
-                <input type="text" name="as_q">
-            </div>
-            <div>
-                <input type="text" name="as_epq">
-            </div>
-            <div>
-                <input type="text" name="as_oq">
-            </div>
-            <div>
-                <input type="text" name="e_q">
-            </div>
-            <input type="submit" name="Google Advanced Search">
-        </form>
+        <div class="form">
+            <form action="https://google.com/search">
+                <div>
+                    <input type="text" name="as_q">
+                </div>
+                <div>
+                    <input type="text" name="as_epq">
+                </div>
+                <div>
+                    <input type="text" name="as_oq">
+                </div>
+                <div>
+                    <input type="text" name="e_q">
+                </div>
+                <input type="submit" name="Google Advanced Search">
+            </form>
+        </div>
+        
     </body>
 </html>
