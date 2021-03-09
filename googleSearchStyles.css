@@ -1,0 +1,33 @@
+body {
+    font-family: "Arial";
+    font-size: small;
+}
+
+div {
+    text-align: center;
+}
+nav > div {
+    text-align: right;
+}
+a {
+    color: black;
+    text-decoration-line:none;
+}
+.form {
+    display:block;
+    text-align:center;
+    margin-top: 20%;
+}
+input[type="text"] {
+    width: 500px;
+    height: 20px;
+    border-radius: 25px;
+    border-width: .5px;
+}
+input[type="submit"] {
+    margin-top: 20px;
+    border-width: 1px;
+    padding: 5px;
+    opacity: 0.8;
+    border-style: none;
+}
