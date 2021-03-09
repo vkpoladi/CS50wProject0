@@ -6,26 +6,38 @@
     </head>
     <body>
         <nav>
-            <div>
+            <div style="display:inline;">
                 <a href="googleSearch.html">Google Search</a>
             </div>
         </nav>
 
-        <div class="form">
+        <div style="font-size:20px; color: red">
+            Advanced Search
+        </div>
+
+        <div style="font-size:medium">
+            Find pages with...
+        </div>
+
+        <div class="form_as">
             <form action="https://google.com/search">
                 <div>
-                    <input type="text" name="as_q">
+                    <label>all these words:</label>
+                    <input type="text" name="as_q" class="input_as">
                 </div>
                 <div>
-                    <input type="text" name="as_epq">
+                    <label>this exact word or phrase:</label>
+                    <input type="text" name="as_epq" class="input_as">
                 </div>
                 <div>
-                    <input type="text" name="as_oq">
+                    <label>any of these words:</label>
+                    <input type="text" name="as_oq" class="input_as">
                 </div>
                 <div>
-                    <input type="text" name="e_q">
+                    <label>none of these words:</label>
+                    <input type="text" name="as_eq" class="input_as">
                 </div>
-                <input type="submit" name="Google Advanced Search">
+                <input type="submit" name="Google Advanced Search" value="Advanced Search">
             </form>
         </div>
         

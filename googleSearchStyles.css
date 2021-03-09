@@ -1,12 +1,20 @@
 body {
     font-family: "Arial";
     font-size: small;
+    padding:20px;
+}
+
+#VOOGLE {
+    text-align:center;
+    font-size:70px;
+    margin-top: 60px;
 }
 
 div {
-    text-align: center;
+    text-align: left;
+    height: 50px;
 }
-nav > div {
+nav {
     text-align: right;
 }
 a {
@@ -16,15 +24,36 @@ a {
 .form {
     display:block;
     text-align:center;
-    margin-top: 20%;
+    margin-top: 5%;
 }
-input[type="text"] {
+.form_as {
+    text-align: left;
+}
+label {
+    display:inline-block;
+    width: 150px;
+}
+input[class="input_as"] {
+    text-align: left;
+    display:inline-block;
+}
+input[class="input_s"] {
     width: 500px;
     height: 20px;
     border-radius: 25px;
     border-width: .5px;
 }
 input[type="submit"] {
+    margin-top: 20px;
+    border-width: 1px;
+    padding: 5px;
+    opacity: 0.8;
+    border-style: none;
+}
+input[name="Google Advanced Search"] {
+    background-color: rgba(0, 0, 255, 0.76);
+    color: white;
+    margin-left:220px;
     margin-top: 20px;
     border-width: 1px;
     padding: 5px;
